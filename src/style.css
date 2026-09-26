@@ -8,18 +8,21 @@ body {
   height: 100vh;
 }
 
-contador-container {
+.contador-container {
   background: white;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+  display: flex;         
+  flex-direction: column; 
+  align-items: center;
   min-width: 300px;
 }
 
 .titulo-badge h1 {
   margin: 0;
-  font-size: 1.6rem;
+ 
   font-weight: 900;
   color: #3b143c;
 }
@@ -57,9 +60,9 @@ button:hover {
 .titulo-badge {
   display: inline-block;
   background-color: #f3d1f4;
-  border: 2.5px solid #111e25;
-  border-radius: 16px;
-  padding: 0.6rem 2rem;
+  border: 4px solid #111e25;     
+  border-radius: 20px;            
+  padding: 1rem 2.5rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
