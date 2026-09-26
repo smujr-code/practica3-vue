@@ -8,9 +8,9 @@ const { contador, incrementar, decrementar } = useContador()
   <div class="contador-container">
     
     <div class="titulo-badge">
-      <h1>PRÀCTICA 3</h1>
+      <h1>PRÁCTICA 3</h1>
     </div>
-    <p class="numero">{{ contador }}</p>
+    <p class="numero" :class="{ 'positivo': contador > 0, 'negativo': contador < 0 }">{{ contador }}</p>
 
     <div class="botones">
       <button @click="decrementar">- Menos</button>

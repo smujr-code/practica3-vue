@@ -63,3 +63,29 @@ button:hover {
   margin-bottom: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
+/* Estilo base del cuadro numérico (para cuando es 0) */
+.numero {
+  background-color: #f3d1f4;
+  color: #3b143c;
+  border: 2.5px solid #111e25;
+  border-radius: 16px;
+  padding: 0.8rem 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin: 1rem 0;
+}
+
+/* Caso cuando es mayor a 0 (Positivo - Celeste) */
+.numero.positivo {
+  background-color: #d1ecf8;
+  color: #0b3c5d;
+}
+
+/* Caso cuando es menor a 0 (Negativo - Naranja/Salmón y texto rojo) */
+.numero.negativo {
+  background-color: #fde8d7;
+  color: #c51d1d;
+}
