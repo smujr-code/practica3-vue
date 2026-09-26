@@ -60,7 +60,7 @@ button:hover {
 .titulo-badge {
   display: inline-block;
   background-color: #f3d1f4;
-  border: 4px solid #111e25;     
+  border: 4px solid #581c87;    
   border-radius: 20px;            
   padding: 1rem 2.5rem;
   margin-bottom: 1.5rem;
@@ -71,7 +71,7 @@ button:hover {
 .numero {
   background-color: #f3d1f4;
   color: #3b143c;
-  border: 2.5px solid #111e25;
+  border: 3px solid #581c87;
   border-radius: 16px;
   padding: 0.8rem 2rem;
   font-size: 2.5rem;
@@ -85,12 +85,14 @@ button:hover {
 .numero.positivo {
   background-color: #d1ecf8;
   color: #0b3c5d;
+  border: 3px solid #0369a1
 }
 
 /* Caso cuando es menor a 0 (Negativo - Naranja/Salmón y texto rojo) */
 .numero.negativo {
   background-color: #fde8d7;
   color: #c51d1d;
+  border: 3px solid #b91c1c;
 }
 .botones {
   display: flex;
@@ -117,14 +119,17 @@ button:hover {
 .btn-menos {
   background-color: #fca5a5; /* Salmón / Rojo claro */
   color: #7f1d1d;
+  border: 3px solid #991b1b;
 }
 
 .btn-reiniciar {
   background-color: #f3d1f4; /* Rosado */
   color: #3b143c;
+  border: 3px solid #581c87;
 }
 
 .btn-mas {
   background-color: #86efac; /* Verde claro */
   color: #14532d;
+  border: 3px solid #15803d;
 }
