@@ -92,3 +92,39 @@ button:hover {
   background-color: #fde8d7;
   color: #c51d1d;
 }
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.botones button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2.5px solid #111e25;
+  border-radius: 16px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s;
+}
+
+.botones button:active {
+  transform: scale(0.95);
+}
+
+.btn-menos {
+  background-color: #fca5a5; /* Salmón / Rojo claro */
+  color: #7f1d1d;
+}
+
+.btn-reiniciar {
+  background-color: #f3d1f4; /* Rosado */
+  color: #3b143c;
+}
+
+.btn-mas {
+  background-color: #86efac; /* Verde claro */
+  color: #14532d;
+}

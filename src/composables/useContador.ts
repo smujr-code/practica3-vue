@@ -11,14 +11,7 @@ export function useContador() {
     contador.value--
   }
 
-  return {
-    contador,
-    incrementar,
-    decrementar
-  }
-}
-
-const reiniciar = () => {
+  const reiniciar = () => {
     contador.value = 0
   }
 
@@ -28,3 +21,4 @@ const reiniciar = () => {
     decrementar,
     reiniciar
   }
+}

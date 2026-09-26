@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useContador } from './composables/useContador'
 
-const { contador, incrementar, decrementar } = useContador()
+const { contador, incrementar, decrementar, reiniciar } = useContador()
 </script>
 
 <template>
@@ -13,8 +13,9 @@ const { contador, incrementar, decrementar } = useContador()
     <p class="numero" :class="{ 'positivo': contador > 0, 'negativo': contador < 0 }">{{ contador }}</p>
 
     <div class="botones">
-      <button @click="decrementar">- Menos</button>
-      <button @click="incrementar">+ Más</button>
+      <button @click="decrementar" class="btn-menos">-</button>
+      <button @click="reiniciar" class="btn-reiniciar">🔄</button>
+      <button @click="incrementar" class="btn-mas">+</button>
     </div>
   </div>
 </template>
