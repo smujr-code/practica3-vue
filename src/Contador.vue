@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useContador } from './composables/useContador'
 
-// Variable reactiva para el número del contador
-const contador = ref<number>(0)
+const { contador, decrementar } = useContador()
 </script>
 
 <template>
   <div class="contador-container">
-    <h2>Contador</h2>
-    <p>{{ contador }}</p>
+    <h1>Practica 3 Vue</h1>
+    <p class="numero">{{ contador }}</p>
+
+    <div class="botones">
+      <button @click="decrementar">- Menos</button>
+    </div>
   </div>
 </template>
