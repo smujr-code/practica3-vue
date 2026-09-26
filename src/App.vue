@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Contador from '../Contador.vue'
+import Contador from './Contador.vue'
 </script>
 
 <template>
