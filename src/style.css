@@ -17,10 +17,11 @@ contador-container {
   min-width: 300px;
 }
 
-h1 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 0.5rem;
+.titulo-badge h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #3b143c;
 }
 
 .numero {
@@ -47,4 +48,18 @@ button {
   background-color: #2563eb;
   color: white;
   transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.titulo-badge {
+  display: inline-block;
+  background-color: #f3d1f4;
+  border: 2.5px solid #111e25;
+  border-radius: 16px;
+  padding: 0.6rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }

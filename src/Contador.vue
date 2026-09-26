@@ -6,7 +6,10 @@ const { contador, incrementar, decrementar } = useContador()
 
 <template>
   <div class="contador-container">
-    <h1>Practica 3 Vue</h1>
+    
+    <div class="titulo-badge">
+      <h1>PRÀCTICA 3</h1>
+    </div>
     <p class="numero">{{ contador }}</p>
 
     <div class="botones">
