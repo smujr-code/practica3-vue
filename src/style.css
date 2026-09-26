@@ -29,3 +29,10 @@ h1 {
   color: #2563eb;
   margin: 1rem 0;
 }
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
