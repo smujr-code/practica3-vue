@@ -133,3 +133,9 @@ button:hover {
   color: #14532d;
   border: 3px solid #15803d;
 }
+
+.titulo-badge,
+.numero,
+.botones button {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
