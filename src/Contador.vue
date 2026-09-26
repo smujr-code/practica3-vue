@@ -14,7 +14,7 @@ const { contador, incrementar, decrementar, reiniciar } = useContador()
 
     <div class="botones">
       <button @click="decrementar" class="btn-menos">-</button>
-      <button @click="reiniciar" class="btn-reiniciar">🔄</button>
+      <button @click="reiniciar" class="btn-reiniciar">C</button>
       <button @click="incrementar" class="btn-mas">+</button>
     </div>
   </div>

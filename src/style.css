@@ -43,10 +43,11 @@ body {
 
 button {
   padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-weight: bold;
   border: none;
   border-radius: 8px;
+  padding: 0.8rem 1.6rem;
   cursor: pointer;
   background-color: #2563eb;
   color: white;
@@ -124,7 +125,7 @@ button:hover {
 
 .btn-reiniciar {
   background-color: #f3d1f4; /* Rosado */
-  color: #3b143c;
+  color: #581c87;
   border: 3px solid #581c87;
 }
 
